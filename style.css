@@ -1,0 +1,21 @@
+body {
+  background-color: #f5deb3;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.first {
+  color: red;
+}
+
+#your-name {
+  background-color: aquamarine;
+  padding: 1rem;
+  border: 5px solid #444;
+  padding: 2rem;
+  margin: 10px;
+}
