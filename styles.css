@@ -4,9 +4,10 @@
 
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
+  font-family: Anta, system-ui, sans-serif;
   color: #f59e0b;
   background-color: #020617;
+  text-align: center;
 }
 
 nav {
