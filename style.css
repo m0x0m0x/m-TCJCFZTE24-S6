@@ -37,6 +37,11 @@ p {
   margin-top: 30px;
   width: 400px;
 }
+
+#your-name h2 {
+  color: olive;
+}
+
 input,
 button {
   padding: 20px;
@@ -45,4 +50,18 @@ button {
 
 a {
   background-color: yellowgreen;
+  transition: all 200ms;
+}
+
+a:hover {
+  letter-spacing: 10px;
+}
+
+#armpit-sniff {
+  width: 200px;
+  transition: all 1300ms;
+}
+
+#armpit-sniff:hover {
+  width: 100px;
 }
