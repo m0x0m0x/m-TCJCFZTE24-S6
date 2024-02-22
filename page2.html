@@ -6,14 +6,38 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End Fonts -->
   </head>
   <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/page2.html" aria-current="page">Other page</a>
-    </nav>
-    <main>
-      <h1>My other page</h1>
-    </main>
+    <div class="background-container">
+      <video autoplay muted loop class="background-video">
+        <source
+          src="https://imagecdn.clips4sale.com/accounts99/215315/clips_previews/prev_28633809.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="content-container">
+      <nav>
+        <a href="/" aria-current="page">Home</a>
+        <a href="/page2.html">Other page</a>
+      </nav>
+
+      <main>
+        <h1>Other PAge</h1>
+        <p>Good stuff here</p>
+      </main>
+    </div>
+
+    <div class="dark-overlay"></div>
   </body>
 </html>
